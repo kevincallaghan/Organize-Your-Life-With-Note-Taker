@@ -17,7 +17,7 @@ This project required express to create, however, it requires no installation to
 
 ## Usage
 
-Link to deployed page: https://organize-your-life.herokuapp.com/notes 
+Link to deployed page: https://organize-your-life.herokuapp.com/
 
 This is an easy to use note taking app.  To add a note, simply type in a note title, type in additional details in the note text, then hit the 'save' icon in the top right corner.  To delete a note, find the note you want to delete on the list of notes and click the 'trash can' to delete.  To view an existing note, just click on the note you would like to view and it will open on the right side.  To add a new note after viewing a note, click the 'Plus" symbol in the top right corner.
   
