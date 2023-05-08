@@ -2,7 +2,7 @@
 
 ## Description
 
-This project allows the user to quickly add or delete a note/reminder and store the notes in a database so they will remain until deleted.  During this project, I learned about routes, servers, and deploying a project to Heroku.
+This project allows the user to quickly add or delete a note/reminder and store the notes in a database so they will remain until deleted.  You can add new notes or click on existing notes to view the details for that note.  During this project, I learned about routes, servers, and deploying a project to Heroku.  Through trial and error, I learned how the placement of certain routes on the server.js file can impact the functionality of the project.
 
 ## Table of Contents (Optional)
 
