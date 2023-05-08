@@ -14,24 +14,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 app.use(express.static('public'));
 
-// Route for homepage
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
 // Route for notes page
 app.get("/notes", function (req, res) {
   res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
 
-//TODO =====================================================
-
-//! Need to write Get, Post, and Delete
-//! Either put it here or in separate route folders
-
-//TODO =====================================================
+// Route for homepage
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+});
 
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+  console.log(`App listening at http://localhost:${PORT}`)
 );
 
